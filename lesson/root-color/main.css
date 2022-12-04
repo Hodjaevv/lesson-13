@@ -2,16 +2,26 @@
     --defaultBtnColor: #f00;
     --hoverBtnColor: #0f0;
     --activeBtnColor: #00f;
+    --linklarniBtnColor: #00BAFC;
 }
 button{
     width: 200px;
     height: 30px;
     background-color: var(--defaultBtnColor);
     border: none;
+    margin-bottom: 50px;
 }
 button:hover{
     background-color: var(--hoverBtnColor);
 }
 button:active{
     background-color: var(--activeBtnColor);
+}
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: var(--defaultBtnColor);
+}
+.box:hover{
+    background-color: var(--linklarniBtnColor);
 }
